@@ -3,19 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>JavaScript praktisk!</title>
-<style type="text/css">
-	a{
-		display: block;
-	}
-</style>
-<script type="text/javascript">
-	
-	function popIt(loca){
-		// åbner en ny vindue i browseren
-		newWindow = window.open(loca, "_blank", "width=578, height=650, top=50, left=100");
-	}
-	
-</script>
+<link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -23,5 +11,36 @@
 <a href="javascript:void();" onClick="popIt('cats.html')">Annoying cat pop-up window here for you to click!</a>
 <a href="javascript:void();" onClick="popIt('http://www.cphbusiness.dk')">Annoying CPHbusiness window here for you to click!</a>
 <hr>
+<!-- Trigger/Open The Modal Box -->
+<button id="myBtn">Open a cool Modal Box!</button>
+
+<!-- The Modal Box -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    <img src="images/download.jpg" width="259" height="194" alt=""/>
+	<p>Some funny animals...</p>
+  </div>
+
+</div>
+<!-- Modal Box END -->
+<script src="external_1.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

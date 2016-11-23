@@ -3,8 +3,9 @@
 var konsolenschweiss = "Per FEKT";
 console.log(konsolenschweiss);
 // element med eventhandler + anonym funktion
-document.getElementById('clicker').onclick = function(){
+document.getElementById('clicker').onClick = function(){
 	'use strict';
    // this function is strict...
 	alert("Jep - det funkede!");
 };
+	
